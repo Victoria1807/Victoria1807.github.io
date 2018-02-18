@@ -1,0 +1,34 @@
+/* --- Roboto-Regular --- */
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url(../fonts/RobotoRegular/Roboto-Regular.eot);
+	src: url(../fonts/RobotoRegular/Roboto-Regular.eot?#iefix) format("embedded-opentype"),
+	url(../fonts/RobotoRegular/Roboto-Regular.woff) format("woff"),
+	url(../fonts/RobotoRegular/Roboto-Regular.woff2) format("woff2"),
+	url(../fonts/RobotoRegular/Roboto-Regular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* --- Roboto Medium --- */
+
+@font-face {
+	font-family: "RobotoMedium";
+	src: url(../fonts/RobotoMedium/Roboto-Medium.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+
+/* --- Roboto Bold --- */
+
+@font-face {
+	font-family: "RobotoBold";
+	src: url(../fonts/RobotoBold/Roboto-Bold.eot);
+	src: url(../fonts/RobotoBold/Roboto-Bold.eot?#iefix) format("embedded-opentype"),
+	url(../fonts/RobotoBold/Roboto-Bold.woff) format("woff"),
+	url(../fonts/RobotoBold/Roboto-Bold.woff2) format("woff2"),
+	url(../fonts/RobotoBold/Roboto-Bold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
