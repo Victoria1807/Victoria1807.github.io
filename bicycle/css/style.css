@@ -1,0 +1,460 @@
+/* ===== GLOBAL STYLES ===== */
+
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 960px;
+    font-family: 'LatoRegular', sans-serif;
+    color: #848789;
+    background-color: #f7f7f7;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/* ===== HEADER STYLES ===== */
+
+.main-header {
+    padding-top: 35px;
+    height: 800px;
+    color: #4d4959;
+    background-color: #eceef5;
+    background: url("../img/header-logo.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+    margin-right: 67px;
+    font-family: 'LatoBold', sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.main-navigation li:nth-child(1)::after,
+.main-navigation li:nth-child(4)::after {
+    content: ".";
+    position: relative;
+    left: 30px;
+}
+
+.main-navigation a {
+    color: #4d4959;
+    text-decoration: none;
+}
+
+.main-navigation a:hover {
+    text-decoration: underline;
+}
+
+/* ===== ABOUT US STYLES ===== */
+
+.about-us {
+    padding-top: 117px;
+    background: #f7f7f7;
+}
+
+.about-us img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.about-us h3 {
+    margin-bottom: 20px;
+    font-family: 'LatoBold', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #353738;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us p {
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+    font-family: 'LatoRegular', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+}
+
+/* ===== WORKS STYLES ===== */
+
+.works-description {
+    width: 533px;
+    height: 400px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.works-description img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.works-description h3 {
+    font-family: 'LatoBold', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #353738;
+    text-transform: uppercase;
+}
+
+.works-description p {
+    display: block;
+    margin: 0 auto;
+    width: 415px;
+    font-family: 'LatoRegular', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: #848789;
+}
+
+.works-description p::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 1px;
+    background-color: #d7d7d7;
+    top: 40px;
+    left: 180px;
+}
+
+.picture {
+    position: relative;
+}
+
+.picture img {
+    display: block;
+    margin: 0;
+}
+
+.square {
+    position: absolute;
+    top: -4px;
+    left: 260px;
+    width: 9px;
+    height: 9px;
+    background-color: #ffffff;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.la-boriosa {
+    margin-top: 0;
+}
+
+.vintage-oliva-left {
+    float: left;
+    width: 1067px;
+    height: 600px;
+    background: url("../img/vintage-oliva-back.jpg") 100% 100% no-repeat;
+}
+
+.vintage-oliva .company-pic {
+    width: inherit;
+    height: inherit;
+    background: url("../img/vintage-oliva-pic.png") no-repeat;
+    background-position: center center;
+}
+
+.vintage-oliva-right {
+    float: right;
+    margin-bottom: 0;
+}
+
+.la-boriosa-left {
+    float: left;
+}
+
+.la-boriosa-right {
+    float: right;
+    width: 1067px;
+    height: 600px;
+    background: url("../img/la-boriosa-back.jpg") 100% 100% no-repeat;
+}
+
+.la-boriosa .company-pic {
+    width: inherit;
+    height: inherit;
+    background: url("../img/la-boriosa-pic.png") no-repeat;
+    background-position: center center;
+}
+
+.retro-bike-left {
+    float: left;
+    width: 533px;
+    height: 600px;
+    background: url("../img/retro-bike-back-1.jpg") 100% 100% no-repeat;
+}
+
+.retro-bike .company-pic {
+    width: inherit;
+    height: inherit;
+    background: url("../img/retro-bike-pic.png") no-repeat;
+    background-position: center center;
+}
+
+.retro-bike-center {
+    float: left;
+}
+
+.retro-bike-right {
+    float: right;
+    width: 533px;
+    height: 600px;
+    background: url("../img/retro-bike-back-2.jpg") 100% 100% no-repeat;
+}
+
+/* ===== TWITTER TWEETS STYLES ===== */
+
+.twitter-tweets {
+    padding-top: 125px;
+    padding-bottom: 175px;
+    text-align: center;
+}
+
+.twitter-tweets img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.twitter-tweets b {
+    font-family: 'LatoBold', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    color: #353738;
+}
+
+.twitter-tweets p {
+    width: 1045px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'LatoItalic', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #848789;
+}
+
+/* ===== SHOP STYLES ===== */
+
+.shop img {
+    display: block;
+    margin: 0;
+}
+
+.shop-images > div {
+    float: left;
+    width: 533px;
+    height: 534px;
+}
+
+.shop-images-left .top > img {
+    float: left;
+}
+
+.shop-images-center .left img,
+.shop-images-center .right img {
+    display: block;
+    float: left;
+}
+
+.shop-images-right .bottom img {
+    display: block;
+    float: left;
+}
+
+.shop-discover {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #282f35;
+}
+
+.shop-discover a {
+    display: block;
+    width: 300px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'LatoBold', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #94979a;
+}
+
+/* ===== MAILING STYLES ===== */
+
+.mailing {
+    padding-top: 105px;
+    padding-bottom: 110px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.mailing-container {
+    width: 539px;
+    margin: 0 auto;
+}
+
+.mailing img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.mailing span {
+    font-family: 'LatoItalic', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #848789;
+}
+
+.mailing input[type="email"]::-webkit-input-placeholder {
+    font-family: 'LatoItalic', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #929292;
+}
+
+.mailing input[type="email"]:-ms-input-placeholder {
+    font-family: 'LatoItalic', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #929292;
+}
+
+.mailing input[type="email"]::-ms-input-placeholder {
+    font-family: 'LatoItalic', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #929292;
+}
+
+.mailing input[type="email"]::placeholder {
+    font-family: 'LatoItalic', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #929292;
+}
+
+.mailing input[type="email"] {
+    margin-top: 30px;
+    margin-right: 8px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    width: 400px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #d3d7d9;
+}
+
+.mailing button {
+    position: relative;
+    top: 3px;
+    margin-top: 3px;
+    padding: 24px 45px;
+    font-family: 'LatoLight', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #64c29e;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* ===== FOOTER STYLES ===== */
+
+.main-footer {
+    padding-top: 90px;
+    padding-left: 250px;
+    padding-bottom: 40px;
+    background-color: #f7f7f7;
+}
+
+.footer-content {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.footer-location {
+    float: left;
+}
+
+.footer-location b {
+    font-family: 'LatoBold', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #848789;
+}
+
+.footer-location p {
+    font-family: 'LatoItalic', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #848789;
+}
+
+.footer-social {
+    float: right;
+    height: 34px;
+}
+
+.footer-social a {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
