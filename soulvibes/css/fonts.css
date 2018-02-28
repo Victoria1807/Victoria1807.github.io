@@ -1,0 +1,35 @@
+/* --- Montserrat Bold --- */
+
+@font-face {
+	font-family: "MontserratBold";
+	src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* --- Montserrat Regular --- */
+
+@font-face {
+	font-family: "MontserratRegular";
+	src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* --- Lora Bold --- */
+
+@font-face {
+	font-family: "LoraBold";
+	src: url(../fonts/Lora-Bold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* --- Caviar Dreams --- */
+
+@font-face {
+	font-family: "CaviarDreams";
+	src: url(../fonts/Caviar-Dreams.ttf) format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
