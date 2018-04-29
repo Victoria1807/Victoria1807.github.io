@@ -8,11 +8,13 @@
 ![](preview/barbershop.png)
 
 
+
 ## Bicycle
 <https://victoria1807.github.io/bicycle/>
 
 
 ![](preview/bicycle.png)
+
 
 
 ## Nerds
@@ -22,11 +24,13 @@
 ![](preview/nerds.png)
 
 
+
 ## Soulvibes
 <https://victoria1807.github.io/soulvibes/>
 
 
 ![](preview/soulvibes.png)
+
 
 
 ## My profiles:
