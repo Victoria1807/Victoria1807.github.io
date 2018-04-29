@@ -1,5 +1,6 @@
-# Vicurl
+# Victoria1807.github.io
 ![](https://github.com/Victoria1807/VK-Photos-Downloader/blob/master/Victoria1807.jpg)
+
 ## Barbershop
 <https://victoria1807.github.io/barbershop/>
 
